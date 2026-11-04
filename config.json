@@ -1,0 +1,13 @@
+{
+  "symbol": "ETH",
+  "signal_interval": "1h",
+  "trend_interval": "4h",
+  "rsi_period": 14,
+  "oversold": 30,
+  "overbought": 70,
+  "trend_sma_period": 200,
+  "trail_pct": 0.04,
+  "max_trades_per_day": 2,
+  "starting_capital": 100.0,
+  "fee_pct": 0.00045
+}

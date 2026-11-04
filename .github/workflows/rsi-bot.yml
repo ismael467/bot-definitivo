@@ -1,0 +1,40 @@
+name: RSI paper-trading bot (Hyperliquid)
+
+on:
+  schedule:
+    - cron: "5 * * * *"
+  workflow_dispatch: {}
+
+concurrency:
+  group: rsi-bot
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+      - name: Ejecutar bot
+        run: python src/run_bot.py
+      - name: Latido diario
+        run: date -u +'%Y-%m-%d' > data/heartbeat.txt
+      - name: Mantener el cron activo
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X PUT "repos/${{ github.repository }}/actions/workflows/rsi-bot.yml/enable" || true
+      - name: Commit del estado
+        run: |
+          git config user.name "rsi-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/state.json data/trades_log.csv data/metrics.json data/heartbeat.txt
+          git diff --cached --quiet || git commit -m "bot: actualizar estado ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+          git push
