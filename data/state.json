@@ -2,6 +2,9 @@
   "position": null,
   "equity": 100.0,
   "trades": [],
-  "trades_today": {"date": null, "count": 0},
-  "last_processed_candle_ms": null
+  "trades_today": {
+    "date": null,
+    "count": 0
+  },
+  "last_processed_candle_ms": 1793825999999
 }
