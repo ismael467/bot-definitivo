@@ -1,8 +1,8 @@
 {
-  "equity": 100.0,
-  "total_return_pct": 0.0,
-  "closed_trades": 0,
-  "win_rate_pct": null,
+  "equity": 113.13,
+  "total_return_pct": 13.13,
+  "closed_trades": 1,
+  "win_rate_pct": 100.0,
   "profit_factor": null,
   "max_drawdown_pct": 0.0,
   "long": {
@@ -10,13 +10,8 @@
     "sum_return_pct": 0
   },
   "short": {
-    "trades": 0,
-    "sum_return_pct": 0
+    "trades": 1,
+    "sum_return_pct": 13.13
   },
-  "open_position": {
-    "side": "short",
-    "entry_price": 2423.9,
-    "entry_ms": 1793836799999,
-    "extreme": 2205.4
-  }
+  "open_position": null
 }
