@@ -1,0 +1,10 @@
+{
+  "equity": 100.0,
+  "total_return_pct": 0.0,
+  "closed_trades": 0,
+  "win_rate_pct": null,
+  "profit_factor": null,
+  "max_drawdown_pct": 0.0,
+  "by_coin": {},
+  "open_position": null
+}
