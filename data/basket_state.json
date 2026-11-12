@@ -3,8 +3,8 @@
   "equity": 100.0,
   "trades": [],
   "trades_today": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "count": 0
   },
-  "last_processed_candle_ms": 1794441599999
+  "last_processed_candle_ms": 1794470399999
 }
