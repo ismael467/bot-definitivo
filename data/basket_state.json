@@ -1,10 +1,16 @@
 {
-  "position": null,
+  "position": {
+    "coin": "XRP",
+    "side": "short",
+    "entry_price": 0.99888,
+    "entry_ms": 1794992399999,
+    "extreme": 0.97815
+  },
   "equity": 100.0,
   "trades": [],
   "trades_today": {
     "date": "2026-11-18",
-    "count": 0
+    "count": 1
   },
-  "last_processed_candle_ms": 1794974399999
+  "last_processed_candle_ms": 1795010399999
 }

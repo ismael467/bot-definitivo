@@ -6,5 +6,11 @@
   "profit_factor": null,
   "max_drawdown_pct": 0.0,
   "by_coin": {},
-  "open_position": null
+  "open_position": {
+    "coin": "XRP",
+    "side": "short",
+    "entry_price": 0.99888,
+    "entry_ms": 1794992399999,
+    "extreme": 0.97815
+  }
 }
