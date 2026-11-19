@@ -1,16 +1,15 @@
 {
-  "equity": 100.0,
-  "total_return_pct": 0.0,
-  "closed_trades": 0,
-  "win_rate_pct": null,
+  "equity": 100.6,
+  "total_return_pct": 0.6,
+  "closed_trades": 1,
+  "win_rate_pct": 100.0,
   "profit_factor": null,
   "max_drawdown_pct": 0.0,
-  "by_coin": {},
-  "open_position": {
-    "coin": "XRP",
-    "side": "short",
-    "entry_price": 0.99888,
-    "entry_ms": 1794992399999,
-    "extreme": 0.95392
-  }
+  "by_coin": {
+    "XRP": {
+      "trades": 1,
+      "sum_return_pct": 0.6
+    }
+  },
+  "open_position": null
 }

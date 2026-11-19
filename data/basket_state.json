@@ -1,16 +1,22 @@
 {
-  "position": {
-    "coin": "XRP",
-    "side": "short",
-    "entry_price": 0.99888,
-    "entry_ms": 1794992399999,
-    "extreme": 0.95392
-  },
-  "equity": 100.0,
-  "trades": [],
+  "position": null,
+  "equity": 100.59575336103012,
+  "trades": [
+    {
+      "coin": "XRP",
+      "side": "short",
+      "entry_time": "2026-11-18 08:59",
+      "exit_time": "2026-11-19 11:59",
+      "entry_price": 0.99888,
+      "exit_price": 0.992077,
+      "return_pct": 0.5958,
+      "pnl_usd": 0.5958,
+      "equity_after": 100.5958
+    }
+  ],
   "trades_today": {
-    "date": "2026-11-18",
-    "count": 1
+    "date": "2026-11-19",
+    "count": 0
   },
-  "last_processed_candle_ms": 1795057199999
+  "last_processed_candle_ms": 1795093199999
 }
