@@ -14,8 +14,8 @@
     }
   ],
   "trades_today": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "count": 0
   },
-  "last_processed_candle_ms": 1795035599999
+  "last_processed_candle_ms": 1795057199999
 }
