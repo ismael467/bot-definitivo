@@ -11,5 +11,11 @@
       "sum_return_pct": 0.6
     }
   },
-  "open_position": null
+  "open_position": {
+    "coin": "ETH",
+    "side": "short",
+    "entry_price": 1779.0,
+    "entry_ms": 1795445999999,
+    "extreme": 1714.4
+  }
 }

@@ -1,5 +1,11 @@
 {
-  "position": null,
+  "position": {
+    "coin": "ETH",
+    "side": "short",
+    "entry_price": 1779.0,
+    "entry_ms": 1795445999999,
+    "extreme": 1714.4
+  },
   "equity": 100.59575336103012,
   "trades": [
     {
@@ -16,7 +22,7 @@
   ],
   "trades_today": {
     "date": "2026-11-23",
-    "count": 0
+    "count": 1
   },
-  "last_processed_candle_ms": 1795424399999
+  "last_processed_candle_ms": 1795467599999
 }
