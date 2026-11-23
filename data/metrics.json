@@ -13,5 +13,10 @@
     "trades": 1,
     "sum_return_pct": 13.13
   },
-  "open_position": null
+  "open_position": {
+    "side": "short",
+    "entry_price": 1779.0,
+    "entry_ms": 1795445999999,
+    "extreme": 1714.4
+  }
 }
