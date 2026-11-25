@@ -1,7 +1,7 @@
 {
-  "equity": 100.6,
-  "total_return_pct": 0.6,
-  "closed_trades": 1,
+  "equity": 106.96,
+  "total_return_pct": 6.96,
+  "closed_trades": 2,
   "win_rate_pct": 100.0,
   "profit_factor": null,
   "max_drawdown_pct": 0.0,
@@ -9,13 +9,11 @@
     "XRP": {
       "trades": 1,
       "sum_return_pct": 0.6
+    },
+    "ETH": {
+      "trades": 1,
+      "sum_return_pct": 6.33
     }
   },
-  "open_position": {
-    "coin": "ETH",
-    "side": "short",
-    "entry_price": 1779.0,
-    "entry_ms": 1795445999999,
-    "extreme": 1632.3
-  }
+  "open_position": null
 }
