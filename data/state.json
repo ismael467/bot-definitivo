@@ -1,11 +1,6 @@
 {
-  "position": {
-    "side": "short",
-    "entry_price": 1779.0,
-    "entry_ms": 1795445999999,
-    "extreme": 1632.3
-  },
-  "equity": 113.13191289400423,
+  "position": null,
+  "equity": 120.29188506092135,
   "trades": [
     {
       "side": "short",
@@ -16,11 +11,21 @@
       "return_pct": 13.1319,
       "pnl_usd": 13.1319,
       "equity_after": 113.1319
+    },
+    {
+      "side": "short",
+      "entry_time": "2026-11-23 14:59",
+      "exit_time": "2026-11-25 17:59",
+      "entry_price": 1779.0,
+      "exit_price": 1671.696,
+      "return_pct": 6.3289,
+      "pnl_usd": 7.16,
+      "equity_after": 120.2919
     }
   ],
   "trades_today": {
-    "date": "2026-11-23",
-    "count": 1
+    "date": "2026-11-25",
+    "count": 0
   },
-  "last_processed_candle_ms": 1795607999999
+  "last_processed_candle_ms": 1795643999999
 }
