@@ -3,7 +3,7 @@
     "side": "short",
     "entry_price": 1779.0,
     "entry_ms": 1795445999999,
-    "extreme": 1663.2
+    "extreme": 1652.6
   },
   "equity": 113.13191289400423,
   "trades": [
@@ -22,5 +22,5 @@
     "date": "2026-11-23",
     "count": 1
   },
-  "last_processed_candle_ms": 1795539599999
+  "last_processed_candle_ms": 1795571999999
 }
