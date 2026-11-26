@@ -15,5 +15,11 @@
       "sum_return_pct": 6.33
     }
   },
-  "open_position": null
+  "open_position": {
+    "coin": "XRP",
+    "side": "short",
+    "entry_price": 0.94964,
+    "entry_ms": 1795676399999,
+    "extreme": 0.94716
+  }
 }
