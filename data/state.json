@@ -1,5 +1,10 @@
 {
-  "position": null,
+  "position": {
+    "side": "short",
+    "entry_price": 1733.9,
+    "entry_ms": 1795762799999,
+    "extreme": 1725.5
+  },
   "equity": 120.29188506092135,
   "trades": [
     {
@@ -24,8 +29,8 @@
     }
   ],
   "trades_today": {
-    "date": "2026-11-26",
-    "count": 0
+    "date": "2026-11-27",
+    "count": 1
   },
-  "last_processed_candle_ms": 1795733999999
+  "last_processed_candle_ms": 1795766399999
 }
